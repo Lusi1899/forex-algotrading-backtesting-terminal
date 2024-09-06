@@ -1,0 +1,20 @@
+2024-09-05 12:51:03 LogWrapper init() ./logs/main.log
+2024-09-05 12:51:03 Bot started with Trade settings:
+{'n_ma': 12, 'n_std': 2.5, 'maxspread': 0.0004, 'mingain': 0.0006, 'riskreward': 1.5}
+{'n_ma': 12, 'n_std': 2.5, 'maxspread': 0.0004, 'mingain': 0.0006, 'riskreward': 1.5}
+{'n_ma': 12, 'n_std': 2.5, 'maxspread': 0.0004, 'mingain': 0.0006, 'riskreward': 1.5}
+{'n_ma': 12, 'n_std': 2.5, 'maxspread': 0.0004, 'mingain': 0.0006, 'riskreward': 1.5}
+{'n_ma': 12, 'n_std': 2.5, 'maxspread': 0.0004, 'mingain': 0.0006, 'riskreward': 1.5}
+{'n_ma': 12, 'n_std': 2.5, 'maxspread': 0.0004, 'mingain': 0.0006, 'riskreward': 1.5}
+{'n_ma': 12, 'n_std': 2.5, 'maxspread': 0.0004, 'mingain': 0.0006, 'riskreward': 1.5}
+{'n_ma': 12, 'n_std': 2.5, 'maxspread': 0.0004, 'mingain': 0.0006, 'riskreward': 1.5}
+
+2024-09-05 12:51:04 Bot Started
+2024-09-05 12:51:22 process_candles triggered: ['AUD_CAD']
+2024-09-05 12:52:10 process_candles triggered: ['GBP_CHF', 'EUR_USD', 'USD_JPY', 'EUR_JPY', 'GBP_USD', 'EUR_GBP', 'AUD_USD', 'AUD_CAD']
+2024-09-05 12:53:04 process_candles triggered: ['GBP_USD', 'AUD_USD', 'AUD_CAD']
+2024-09-05 12:53:18 process_candles triggered: ['GBP_CHF', 'EUR_USD', 'USD_JPY', 'EUR_JPY', 'EUR_GBP']
+2024-09-05 12:54:14 process_candles triggered: ['GBP_CHF', 'EUR_USD', 'USD_JPY', 'EUR_JPY', 'GBP_USD', 'EUR_GBP', 'AUD_USD', 'AUD_CAD']
+2024-09-05 12:55:06 process_candles triggered: ['GBP_CHF', 'USD_JPY', 'EUR_JPY', 'GBP_USD', 'EUR_GBP', 'AUD_USD', 'AUD_CAD']
+2024-09-05 12:55:24 process_candles triggered: ['EUR_USD']
+2024-09-05 12:56:01 process_candles triggered: ['AUD_USD']

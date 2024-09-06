@@ -1,0 +1,214 @@
+body{
+padding:0;
+margin:0;
+font-family: "Anek Odia", sans-serif;
+}
+button{
+cursor:pointer;
+min-height: 1em;
+border:none;
+background-color: #0078D7;
+color:white;
+text-decoration:none;
+font-weight:700;
+font-size:0.9rem;
+text-align: center;
+border-radius:0.2rem;
+padding: 0.5rem 1.2rem;
+}
+
+button:hover{
+background-color:#2b88D8;
+}
+
+button:active{
+background-color:#00B294;
+}
+
+table{
+width:100%;
+}
+
+th{
+
+text-align:left;
+
+}
+
+select{
+padding: 0.5rem 0.9rem;
+border: 1px solid #bbb;
+border-radius: 4px;
+background-color:rgb(231,231,213);
+font-size: 0.9rem;
+}
+
+.options{
+display: flex;
+align-items:center;
+}
+
+.options div{
+margin-left:1rem;
+}
+
+.select{
+margin-left:0.7rem;
+}
+
+.container{
+flex-grow:1;
+padding: 0rem 1rem;
+}
+
+.segment{
+padding: 1em;
+border: 1px solid rgba(34,36,38,0.15) ;
+border-radius:0.3rem;
+box-shadow: 0 1px 2px 0 rgba(34,36,38,0.15);
+}
+.grid{
+    border-width:0.rem;
+  display: inline-grid;
+  width: 65%;
+
+  grid-template-columns: auto auto auto
+}
+.headbox{
+display: flex;
+  justify-content: center;
+}
+#app-holder {
+display:flex;
+flex-direction: column;
+min-height:100vh;
+}
+
+#navbar{
+color:white;
+background-color:black;
+display:flex;
+justify-content:space-between;
+flex-grow: 0;
+align-items:center
+}
+
+.navtitle{
+font-size: large;
+font-weight:700;
+padding: 1rem;
+}
+
+#navlinks{
+display:flex;
+}
+
+.navlink{
+padding:1rem;
+font-size: large;
+margin-right:2rem;
+}
+
+.navlink a {
+color: white;
+}
+
+.navlink a:visited{
+color: white;
+}
+
+.navlink a:hover{
+color: #ddd;
+}
+
+.titleHead{
+padding-top:1rem;
+}
+
+
+.account-row{
+display:flex;
+}
+
+.account-row .header{
+    flex-basis: 40%;
+
+}
+
+.account-row .header{
+    font-weight: 700;
+
+}
+
+.headline{
+font-weight:500;
+padding: 0.8em 0.2em;
+text-align:center;
+border: 1px solid rgba(34,36,38,0.15) ;
+border-radius:0.3rem;
+box-shadow: 0 1px 2px 0 rgba(34,36,38,0.15);
+margin: 1rem;
+background-color:rgba(24,70,90,0.3);
+font-size:20px;
+}
+
+.tech-table{
+border: 1px solid rgba(0,0,0,0.9) ;
+border-radius:0.3rem;
+margin-top: 1em;
+padding: 0.5em;
+
+
+}
+
+.tech-header{
+font-weight:700;
+font-size: 2rem;
+}
+.tech-data{
+display: flex;
+
+}
+.tech-summary{
+width:fit-content;
+padding: 0.5em 1em;
+border: 1px solid rgba(0,0,0,0.9) ;
+border-radius:0.3rem;
+box-shadow: 0 4px 4px 0 rgba(34,36,38,0.9);
+margin: 0.5em 0em;
+background-color:rgba(34,36,38,0.1);
+font-size: 1.4rem;
+margin-right:0.8rem;
+}
+
+.headline a{
+text-decoration: none;
+color:black;
+}
+
+.headline a:hover{
+font-size:large;
+font-weight:700;
+color:cornflowerblue;
+}
+
+#price-chart-holder{
+min-height: 600px;
+height: calc(100vh - 400px);
+}
+
+#chartDiv{
+height:  calc(100% - 50px);
+}
+
+#footer{
+padding:1rem;
+font-weight:bold;
+background-color:rgba(0,0,0,0.758);
+color:white;
+margin-top:2rem;
+margin-bottom:2rem;
+flex-grow:0;
+}
+
+
